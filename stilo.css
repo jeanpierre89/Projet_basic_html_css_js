@@ -1,0 +1,197 @@
+
+/* Estilo para o cabeçalho */
+.cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #ff4b1f, #1fddff);
+    color: #fff;
+    font-weight: bold;
+
+}
+  
+  .cabecalho h1 {
+    margin: 0;
+  }
+  
+  .cabecalho nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .cabecalho nav ul li {
+    margin: 0 15px;
+    
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* background-color: #f0f0f0; */
+  }
+  
+  nav a:hover {
+    background-color: #b6e2f3;
+  }
+  /* ---------------------------------------------- */
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+  /* Estilo para a seção "Sobre" */
+  .sobre {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+
+  }
+   
+  .sobre img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 40px;
+    float: left;
+    padding: 5px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    
+  }
+  .sobre p {
+    box-sizing: content-box;
+    margin: 20px;
+    padding: 40px;
+    /* text-justify: auto; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    text-align: justify;
+    
+    
+  }
+  
+ 
+ /* Estilo para a seção "conhecimentos/ habilidades" */
+  .tecnologias{
+    text-align: left;
+    padding: 50px;
+  }
+  .conhecimentos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .conhecimentos .iten {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(221, 80, 38, 0.87);
+    border-left: 1px solid rgba(221, 80, 38, 0.87)
+  }
+  .iten {
+    background-color: #f2f2f2;
+    transition: .35s;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  
+  }
+  .conhecimentos:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(.9);
+    
+  }
+  .tecnologias .texhabilidade {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 200%;
+    /* box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5); */
+
+
+  }
+   /* Estilo para a seção "social" */
+   .social {
+    position: fixed;
+    top: 90%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 28px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .social .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social .social-icons li {
+    margin-bottom: 15px;
+  }
+  
+  .social .social-icons a img {
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .social .social-icons a img:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  /* Estilo para a seção "Contato" */
+  .contato {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .contato form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  .contato p {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .contato h2 {
+    text-align: center;
+  }
+  
+  /* Estilo para o rodapé */
+  .final {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
